@@ -1,0 +1,70 @@
+a[target] {
+  background-color: yellow;
+}
+a[target="_self"] {
+  background-color: red;
+}
+
+a:hover {
+  background-color: black;
+}
+
+.section-1 {
+  margin: 1.5rem;
+  padding: 1rem;
+  background: linear-gradient(#1ab3f0, #003764);
+}
+
+.section-1 p {
+  color: white;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.section-2 p {
+  display: inline;
+}
+
+.section-2 span {
+  display: block;
+}
+
+.container {
+  background-color: pink;
+  margin: 1rem 0 1rem 0;
+  width: 75%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  font-size: 15px;
+  color: #1ab3f0;
+  border: 2px solid white;
+  background-color: #003764;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 10vw 20vw 30vw 40vw;
+  grid-gap: 1rm;
+}
+
+.block {
+  padding: 1rem;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  border: 2px solid white;
+  background-color: #003764;
+  border-radius: 8px;
+}
