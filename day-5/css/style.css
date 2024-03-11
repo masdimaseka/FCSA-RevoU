@@ -1,0 +1,36 @@
+header > h1 {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  gap: 1rem;
+  margin: 0.7rem 1rem;
+}
+
+.item-container {
+  border: 1px solid black;
+  width: 100%;
+  padding: 24px;
+}
+
+.item-container > h2 {
+  text-align: center;
+}
+
+.resault-container {
+  text-align: center;
+  background-color: aliceblue;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.form-container > div {
+  padding: 0.5rem;
+}
+
+.form-container {
+  background-color: aliceblue;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}

@@ -7,8 +7,43 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header><h1>Kalkulator BMI</h1></header>
+    <main>
+      <div class="main-container">
+        <div class="item-container">
+          <h2>Form BMI</h2>
+          <p>Berat badan ideal adalah...</p>
+          <section class="form-container">
+            <div>
+              <label>Jenis kelamin</label><br />
+              <div class="gendre-option">
+                <input name="jenis-kelamin" type="radio" id="man-gander" />
+                <label for="man-gander">Laki-laki</label>
+                <input name="jenis-kelamin" type="radio" id="girl-gander" />
+                <label for="girl-gander">Perempuan</label>
+              </div>
+            </div>
+            <div>
+              <label>Berat badan</label><br />
+              <input type="number" />
+            </div>
+            <div>
+              <button type="button">Hitung BMI</button>
+              <button type="button">Reset</button>
+            </div>
+          </section>
+        </div>
+        <div class="item-container">
+          <h2>Resault</h2>
+          <section class="resault-container">
+            <h4>Berat Badan Lebih</h4>
+            <h1>0</h1>
+            <h4>anda memiliki berat badan berlebih</h4>
+            <button type="button">Download</button>
+          </section>
+        </div>
+      </div>
+    </main>
     <footer></footer>
     <script src="./js/script.js"></script>
   </body>
